@@ -1,0 +1,289 @@
+
+/* 1. Pengaturan dasar halaman */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    margin: 0;
+    padding: 30px;
+}
+
+/* 2. Judul halaman */
+
+h2 {
+    color: #172554;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* 3. Tabel mahasiswa */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+th {
+    background-color: #172554;
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tr:hover {
+    background-color: #eaf2ff;
+}
+
+/* 4. Tautan */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 5. Form */
+
+form {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.08);
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 11px;
+    margin: 8px 0 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #2563eb;
+}
+
+/* 6. Tombol */
+
+button,
+input[type="submit"] {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #1e40af;
+}
+
+/* 7. Tampilan layar kecil */
+
+@media (max-width: 700px) {
+    body {
+        padding: 12px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+    }
+}
+
+Kotak untuk halaman detail dan hasil pesan 
+
+.container-detail {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+Judul di tengah 
+
+.container-detail h2 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 25px;
+}
+
+Isi informasi 
+
+.detail-item {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+Tombol kembali 
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #1e3a5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-kembali:hover {
+    background-color: #315782;
+}
+
+Container detail mahasiswa 
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container h2 {
+    color: #1e3a5f;
+    margin-bottom: 25px;
+}
+
+.detail-item {
+    background-color: #f1f5f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: #334155;
+    overflow-wrap: anywhere;
+}
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #1e3a5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+Latar belakang halaman 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #334155;
+    margin: 0;
+    padding: 20px;
+}
+
+Kotak utama di tengah halaman 
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+Judul utama 
+
+.container h2 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+ Subjudul 
+
+.container h3 {
+    color: #64748b;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+Kotak informasi 
+
+.detail-item {
+    background-color: #f1f5f9;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    text-align: left;
+    overflow-wrap: anywhere;
+    line-height: 1.6;
+}
+
+ Tombol kembali 
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+Efek saat tombol diarahkan 
+
+.btn-kembali:hover {
+    background-color: #315782;
+}
+
+/* Tampilan pada layar kecil */ 
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
